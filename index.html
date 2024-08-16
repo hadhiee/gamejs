@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Quest</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="main-menu">
+        <h1>Code Quest</h1>
+        <button onclick="startGame()">Start Game</button>
+        <button onclick="continueGame()">Continue</button>
+        <button onclick="viewLeaderboard()">Leaderboard</button>
+    </div>
+
+    <div id="game-container" style="display: none;">
+        <h2 id="level-title"></h2>
+        <div id="editor-container">
+            <textarea id="code-editor" rows="10" cols="50"></textarea>
+        </div>
+        <div id="output-container">
+            <h3>Output:</h3>
+            <div id="output"></div>
+        </div>
+        <button onclick="runCode()">Run Code</button>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
