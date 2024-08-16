@@ -1,9 +1,6 @@
 // Level 1 script file
 // Kode spesifik untuk Level 1 bisa diletakkan di sini jika diperlukan
 // Berikan nilai yang tepat pada variabel berikut
-var userName; // Harus berisi nama pengguna
-var age; // Harus berisi usia pengguna dalam angka
-var isLoggedIn; // Harus berupa boolean yang menunjukkan apakah pengguna sedang login
 
 // Solusi yang mungkin:
 var userName = "Alice";
